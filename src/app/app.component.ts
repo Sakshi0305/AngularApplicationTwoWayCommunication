@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'A8-Question3';
-  public Name : string = "";
+  title = 'A8-Question4';
+  public ilen :any;
+ 
+  public sLength(no:any):any
+  {
+    this.ilen = no;
+    return this.ilen;
+
+  }
+
 }

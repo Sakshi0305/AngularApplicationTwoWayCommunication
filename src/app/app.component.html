@@ -1,4 +1,7 @@
-<input [(ngModel)]="Name" type="text">
-<h2>{{Name}} : {{Name.length}}</h2>
+<h2>Enter the String</h2>
+<input #Stringlen type="text ">
+<button (click)="sLength(Stringlen.value)">Submit</button>
+<router-outlet></router-outlet>
+<h2>The length is : {{ilen.length}}</h2>
 
 <router-outlet></router-outlet>
